@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORK-FLEX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <style>
+        .img{
+            height: 100vh;
+            width:100vw;
+            background-image: url("https://as2.ftcdn.net/v2/jpg/00/98/84/79/1000_F_98847992_5O1KxAfHfe5Ozm08uhmU5w3Lr3SZu6Mq.jpg");
+            background-size: cover;
+            overflow:auto ;
+        }
+     .heading{
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        overflow: auto;
+     }
+     .para{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        overflow: auto;
+     }
+     .layout{
+        height: 180px;
+        background-color: tomato;
+        border-radius: 5px 5px 5px 5px;
+        overflow: auto;
+     }
+     .but{
+        text-align: center;
+        overflow: auto;
+        display: block;
+        width: 40%;
+        border: none;
+        padding: 14px 28px;
+        background-color: #FEA47F;
+        color: black;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+       }
+
+     .but:hover {
+        background-color: yellowgreen;
+        color: whitesmoke;
+      }
+    .block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     
+    </style>
+</head>
+<body>
+    <div class="img d-flex flex-column justify-content-end">
+        <div class="layout">
+             <h1 class="heading">WELCOME TO YOGA CLASS</h1>
+             <p class="para">yoga is the perfect oppurtunity to be curious about who you are</p>
+             <div class="block">
+                  <button class="but">REGISTER</button>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
